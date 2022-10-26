@@ -1,11 +1,20 @@
 <?php
+
+//creating variables
 $t = date("H");
 
-if (t < "10") {
-  echo "Have a good morning!"
+// making decisions
+if ($t < "10") {
+  //displaying outputs
+  echo "Have a good morning!";
+
 } elseif ($t < "20") {
+  //displaying outputs
   echo "Have a good day!";
-} else 
-  echo "Have a good night!"
+
+} else {
+  //displaying outputs
+  echo "Have a good night!";
 }
+
 ?>
